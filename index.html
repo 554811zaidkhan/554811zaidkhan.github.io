@@ -1,27 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
-    <script defer src="/js/client.js"></script>
-    <link rel="stylesheet" href="/css/style.css">
-    <title>Chat App</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Khan</title>
 </head>
+
 <body>
-    <nav>
-        <img class="logo" src="./img/c.png" alt="chat logo">
-        <h1>Welcome to chat App</h1>
-    </nav>
-    <div class="container">
-        <!-- <div class="message right">Zaid: Hey how are you?</div>
-        <div class="message left">Khan: Sir I am fine, How about you?</div> -->
-    </div>
-    <div class="send">
-        <form action="#" id="send-container">
-            <input type="text" name="messageInp" id="messageInp">
-            <button class="btn" type="submit">send</button>
-        </form>
-    </div>
+    <!-- Start header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="brand-name">
+                    <a href="" class="logo">Zaid Khan</a>
+                </div>
+                <div class="navber">
+                    <ul>
+                        <li><a href="" class="active">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Portfolio</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Home -->
+    <section class="home">
+        <div class="container">
+            <div class="row full-screen">
+                <div class="home-content">
+                    <div class="block">
+                        <h6>Hello, My Name Is</h6>
+                        <h1>Zaid Khan</h1>
+                        <h3>Web Developer</h3>
+                        <div class="cv-btn">
+                            <a href="">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End Home -->
+
+    <!-- Start About -->
+
+    <section class="about-me">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h1>About Me </h1>
+                    <p class="small text-uppercase">Information About Me</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-content">
+                    <div class="row">
+                        <div class="img">
+                            <img src="./image/hero/1.png
+                            " alt="about-me">
+                        </div>
+                        <div class="text">
+                            <h4>I'M Zaid Khan</h4>
+                            <h6>A Lead <span>UX & UI</span> designer based in <span>India</span></h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex assumenda odit architecto,
+                                vero dignissimos cum molestias. Laboriosam quas sequi, at, nesciunt, quae mollitia eius
+                                voluptas voluptatem omnis ratione veritatis. Ratione.</p>
+                            <div class="info">
+                                <div class="list">
+                                    <label>Birthday :</label>
+                                    <p>17 Agust 1999</p>
+                                </div>
+                                <div class="list">
+                                    <label>Email-id :</label>
+                                    <p>zaidkhan5548@gmail.com</p>
+                                </div>
+                                <div class="list">
+                                    <label>Age:</label>
+                                    <p>21 Yr</p>
+                                </div>
+                                <div class="list">
+                                    <label>Phone :</label>
+                                    <p>7351069031</p>
+                                </div>
+                                <div class="list">
+                                    <label>Residance :</label>
+                                    <p>India</p>
+                                </div>
+                                <div class="list">
+                                    <label>Linkedin:</label>
+                                    <p>www.linkedin.com/in/zaid-khan-744395133</p>
+                                </div>
+                                <div class="list">
+                                    <label>Address :</label>
+                                    <p>Vill+Post Nahal Dist Ghaziabad U.P. India</p>
+                                </div>
+                                <div class="list">
+                                    <label>Freelance :</label>
+                                    <p>Available</p>
+                                </div>
+                            </div>
+                            <!-- social links -->
+                            <div class="social-link">
+                                <a href=""><i class="fa fa-facebook"></i></a>
+                                <a href=""><i class="fa fa-twitter"></i></a>
+                                <a href=""><i class="fa fa-instagram"></i></a>
+                                <a href=""><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End About -->
+
+    <!-- Start Servises Section -->
+
+    <section class="services">
+        <div class="container">
+            <div class="row">
+                <div class="section-title text-center">
+                    <h1>Our Services</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="service-content">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-laptop"></i>
+                        </div>
+                        <h5>Unique Design</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, reiciendis blanditiis
+                            explicabo, amet natus, ullam molestias sit fugit deserunt ducimus nesciunt minus dolores
+                            maxime nulla corrupti distinctio! Voluptas molestiae nihil velit blanditiis enim, nemo
+                            soluta, nulla quisquam cumque voluptate eos.</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-columns"></i>
+                        </div>
+                        <h5>Different Layout</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, reiciendis blanditiis
+                            explicabo, amet natus, ullam molestias sit fugit deserunt ducimus nesciunt minus dolores
+                            maxime nulla corrupti distinctio! Voluptas molestiae nihil velit blanditiis enim, nemo
+                            soluta, nulla quisquam cumque voluptate eos.</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-code"></i>
+                        </div>
+                        <h5>Make it simple</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, reiciendis blanditiis
+                            explicabo, amet natus, ullam molestias sit fugit deserunt ducimus nesciunt minus dolores
+                            maxime nulla corrupti distinctio! Voluptas molestiae nihil velit blanditiis enim, nemo
+                            soluta, nulla quisquam cumque voluptate eos.</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-mobile"></i>
+                        </div>
+                        <h5>Responsiveness</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, reiciendis blanditiis
+                            explicabo, amet natus, ullam molestias sit fugit deserunt ducimus nesciunt minus dolores
+                            maxime nulla corrupti distinctio! Voluptas molestiae nihil velit blanditiis enim, nemo
+                            soluta, nulla quisquam cumque voluptate eos.</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <h5>Testing for Perfection</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, reiciendis blanditiis
+                            explicabo, amet natus, ullam molestias sit fugit deserunt ducimus nesciunt minus dolores
+                            maxime nulla corrupti distinctio! Voluptas molestiae nihil velit blanditiis enim, nemo
+                            soluta, nulla quisquam cumque voluptate eos.</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-cog"></i>
+                        </div>
+                        <h5>Advanced Options</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, reiciendis blanditiis
+                            explicabo, amet natus, ullam molestias sit fugit deserunt ducimus nesciunt minus dolores
+                            maxime nulla corrupti distinctio! Voluptas molestiae nihil velit blanditiis enim, nemo
+                            soluta, nulla quisquam cumque voluptate eos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Services Section -->
+
+    <!-- Start Skills -->
+    <section class="skills">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="skills-content">
+                    <div class="row">
+                        <div class="section-title">
+                            <h1>PROFESSIONAL SKILLS</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab necessitatibus alias optio hic ullam, molestiae eius sapiente beatae ducimus officia corrupti aliquid perferendis non distinctio.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="skill-box">
+                            <h6>HTML5</h6>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in" style="width: 85%">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <h6>Java</h6>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in" style="width: 85%">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <h6>C</h6>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in" style="width: 80%">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <h6>UI/UX</h6>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in" style="width: 70%">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <h6>CSS</h6>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in" style="width: 65%">
+                                    <span>65%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <h6>JavaScript</h6>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in" style="width: 45%">
+                                    <span>45%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="./image/skill.jpg" alt="skill">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Skills -->
+
+    <!-- Start Portfolio Work -->
+
+    <section class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="section-title-text">
+                    <h1>LATEST WORK</h1>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Portfolio Work -->
 </body>
+
 </html>
