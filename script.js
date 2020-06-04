@@ -213,7 +213,7 @@ let slideDots;
 
     const hamBurger=document.querySelector(".ham-burger");
 
-    hamBurger.addEventListener("clik",function(){
+    hamBurger.addEventListener("click",function(){
         document.querySelector(".navbar").classList.toggle("show");
     })    
 

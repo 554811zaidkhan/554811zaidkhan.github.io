@@ -731,6 +731,16 @@ margin-bottom: 40px;
     transition: all .5s ease;
 }
 
+.portfolio .portfolio-gallery .item .overlay .fa{
+    height: 30px;
+    width: 30px;
+    background-color: #febd01;
+    margin:0;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
 .portfolio .portfolio-gallery .item:hover .overlay{
     opacity: 1;
 }
